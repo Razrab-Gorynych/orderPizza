@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@media (max-width: 576px){  
+/* ***************** Шапка сайта ******************/
+    .heading{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .wrapper{
+    width: 100%;
+    margin: 0 auto;
+    }  
+
+    .blocks__heading{
+        display: flex;
+        align-items: center;
+    }
+
+    .info__heading{
+        display: none;
+    }
+
+    .logo__heading{
+        margin-left: 27px;
+    }
+
+    .logo__heading img{
+        width: 250px;
+        height: 60px;   
+    }
+
+    .basket-buy__heading{
+        margin-right: 27px;
+        font-size: var(--font-size-medium);
+        gap: 1px;
+    }
+
+    .block-icon__basket-buy img{
+        Width: 50.85px;
+        Height: 43.87px;
+    }
+/* ***************** Шапка сайта ******************/
+
+/* **************** Секция контента ******************/
+    .heading-content{
+        padding-top: 35px;
+        padding-bottom: 68px;
+        display: flex;
+        text-align: center;
+        background-size: cover;
+        background-image: url(../img/пиццаНаСтолеФон.jpg);
+        background-position: 50%;
+    }
+
+    .bloksc__heading-content{
+        gap: 60px;
+    }
+
+/* **************** Секция контента ******************/
+
+/* ****************** Секция pizza ******************/
+    .pizza {
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container__pizza{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .flex-item__flex-container{
+        width: 66.08%;
+    }
+    
+    .blocks__pizza{
+        gap: 70px;
+    }
+/* ****************** Секция pizza ******************/
+
+/* ***************** Секция about-us ****************/
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+    }
+
+    .blocks__about-us{
+        gap: 70px;
+    }
+
+    .blocks__about-us h2{
+        font-size: var(--font-size-h3);
+    }
+
+    .flex-container__about-us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .flex-item__about-us p{
+        height: 94.5px;
+    }
+
+    .flex-item__about-us img{
+        margin-bottom: 20px;
+    }
+
+    .flex-item__about-us{
+        width: 57.04%;
+    }
+/* ***************** Секция about-us ****************/
+
+/* ******************** comment ****************/
+    .comment{
+        padding-top: 70px;
+    }
+
+    .blocks__comment {
+        display: flex;
+        align-items: center;
+    }
+
+    .blocks__comment h2{
+        font-size: var(--font-size-h3);
+        margin-bottom: 70px;
+    }
+
+    .blocks-slider__comment{
+        width: 90.44%;
+    }
+
+    .itc-slider-item{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .flex-item__comment {  
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .flex-item__comment h4{
+        font-size: var(--font-size-height);
+    }
+
+    .flex-item__comment-img{
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-item__comment-img img {
+        margin-top: 50px;
+    }
+
+    .flex-item__comment-img p{
+        margin-bottom: 70px;
+    }
+/* ******************** comment ****************/
+
+/* ****************** set-comment ****************/
+    .set-comment{
+        padding-top: 90px;
+        padding-bottom: 87px;
+    }
+
+    .flex-item-text__set-comment{
+        display: flex;
+        flex-direction: column; 
+        flex: 100%;
+        align-items: center;
+    }
+
+    .flex-item-text__set-comment h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: var(--font-size-h3);
+    }
+
+    .list-reasons li span{
+        width: 420px;
+        align-items: center;
+    }
+
+    .flex-item-img__set-comment{
+        display: none;
+    }
+/* ****************** set-comment ****************/
+
+/* ******************** contacts ******************/
+    .contacts{
+        padding-top: 27px;
+        padding-bottom: 40px;
+    }
+
+    .flex-container__contacts{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex-item-map__contacts{
+        width: 87.13%;
+        height: 608px;
+        margin-right: 0;
+    }
+
+    .flex-item-text__contacts{
+        width: 91.30%;
+        gap: 56px;
+    }
+
+    .flex-item-text__contacts h2{
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-h3);
+        line-height: 133%;
+        text-align: center;
+    }
+
+    .flex-item-text__contacts, .flex-item-map__contacts
+    .flex-item-text__contacts {order: 0;}
+    .flex-item-map__contacts {order: 1;}
+    
+    .content__flex-item-text{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .contact__content{
+        margin-bottom: 48px;
+    }
+
+    .contact__content img {
+        margin-bottom: 28px;
+    }
+
+    .flex-container__info-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+    }
+
+    .info-footer{
+        padding-top: 40px;
+        padding-bottom: 31px;
+    }
+
+    .modal-content {
+        width: 100%;
+        margin: 3% auto;
+        padding: 50px 30px 50px;
+    }
+
+    .block-social-icon{
+        gap: 55px;
+        margin-right: 0;
+    }
+}
